@@ -5,7 +5,7 @@
         "type": "link",
         "extensionParams": {
         },
-        "label": "Téléchargement CSV",
+        "label": "CSV Upload",
         "url": "#/csv",
         "icon": "fa-upload",
         "order": 1,
@@ -17,7 +17,7 @@
         "type": "link",
         "extensionParams": {
         },
-        "label": "Exportation CSV",
+        "label": "CSV Export",
         "url": "#/csvExport",
         "icon": "fa-download",
         "order": 1,
@@ -29,7 +29,7 @@
         "type": "link",
         "extensionParams": {
         },
-        "label": "Journal d'audit",
+        "label": "Audit Log",
         "url": "#/auditLog",
         "icon": "fa-eye",
         "order": 1,
@@ -41,7 +41,7 @@
         "type": "link",
         "extensionParams": {
         },
-        "label": "Ensemble de commandes",
+        "label": "Order Set",
         "url": "#/ordersetdashboard",
         "icon": "fa-upload",
         "order": 1,
@@ -53,7 +53,7 @@
         "type": "link",
         "extensionParams": {
         },
-        "label": "Lits",
+        "label": "Beds",
         "url": "/openmrs/owa/bedmanagement/admissionLocations.html",
         "icon": "icon-bahmni-inpatient",
         "order": 1,

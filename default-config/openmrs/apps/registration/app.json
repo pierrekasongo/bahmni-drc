@@ -114,8 +114,8 @@
             },
             "patientSearch": {
                 "customAttributes": {
-                    "label": "Téléphone",
-                    "placeholder": "Téléphone",
+                    "label": "Phone Number",
+                    "placeholder": "Phone Number",
                     "fields": ["phoneNumber","alternatePhoneNumber"]
                 }
             },

@@ -1,6 +1,6 @@
 {
 	"homePage": {
-		"header_text": "<b>Bienenue A<br />Bahmni",
+		"header_text": "<b>WELCOME TO<br />BAHMNI EMR & HOSPITAL SERVICE",
 		"logo": "/bahmni_config/openmrs/apps/home/logo.png",
 		"title_text": " "
 	},
@@ -16,28 +16,28 @@
 		{
 			"enabled": true,
 			"name": "clinicalService",
-			"title": "Service clinique",
+			"title": "Clinical Service",
 			"logo": "/bahmni/images/app.png",
 			"link": "/bahmni/home"
 		},
 		{
 			"enabled": true,
 			"name": "openelis",
-			"title": "Laboratoire",
+			"title": "Laboratory",
 			"logo": "/bahmni/images/lab.png",
 			"link": "/openelis"
 		},
 		{
 			"enabled": true,
 			"name": "odoo",
-			"title": "Gestion stock & facturation",
+			"title": "Stock Inventory & Billing",
 			"logo": "/bahmni/images/bills.png",
 			"linkPrefix": "erp"
 		},
 		{
 			"enabled": false,
 			"name": "crater",
-			"title": "Paiement & facturation",
+			"title": "Payment & Billing",
 			"logo": "/bahmni/images/bills.png",
 			"linkPrefix": "payments"
 		},
@@ -51,14 +51,14 @@
 		{
 			"enabled": true,
 			"name": "dcm",
-			"title": "Radiologie",
+			"title": "Radiology",
 			"logo": "/bahmni/images/pac.png",
 			"link": "/dcm4chee-web3"
 		},
 		{
 			"enabled": true,
 			"name": "metabase",
-			"title": "Analyse",
+			"title": "Analytics",
 			"logo": "/bahmni/images/analytics.png",
 			"link": "/metabase"
 		}
