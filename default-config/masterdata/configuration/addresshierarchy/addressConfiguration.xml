@@ -3,13 +3,13 @@
   <addressComponents>
     <addressComponent>
       <field>STATE_PROVINCE</field>
-      <nameMapping>Province</nameMapping>
+      <nameMapping>State</nameMapping>
       <sizeMapping>40</sizeMapping>
       <requiredInHierarchy>false</requiredInHierarchy>
     </addressComponent>
     <addressComponent>
       <field>COUNTY_DISTRICT</field>
-      <nameMapping>Territoire</nameMapping>
+      <nameMapping>District</nameMapping>
       <sizeMapping>40</sizeMapping>
       <requiredInHierarchy>false</requiredInHierarchy>
     </addressComponent>
@@ -21,19 +21,19 @@
     </addressComponent>
     <addressComponent>
       <field>City_village</field>
-      <nameMapping>Ville/Village</nameMapping>
+      <nameMapping>City/Village</nameMapping>
       <sizeMapping>40</sizeMapping>
       <requiredInHierarchy>false</requiredInHierarchy>
     </addressComponent>
     <addressComponent>
       <field>ADDRESS_2</field>
-      <nameMapping>Localité/Secteur</nameMapping>
+      <nameMapping>Locality/Sector</nameMapping>
       <sizeMapping>40</sizeMapping>
       <requiredInHierarchy>false</requiredInHierarchy>
     </addressComponent>
     <addressComponent>
       <field>ADDRESS_1</field>
-      <nameMapping>Numéro de maison/Numéro d'appartement</nameMapping>
+      <nameMapping>House number/Flat number</nameMapping>
       <sizeMapping>40</sizeMapping>
       <requiredInHierarchy>false</requiredInHierarchy>
     </addressComponent>

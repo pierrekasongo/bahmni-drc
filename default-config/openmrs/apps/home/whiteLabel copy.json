@@ -1,6 +1,6 @@
 {
 	"homePage": {
-		"header_text": "<b>AFIA-DME",
+		"header_text": "<b>Bienenue A<br />Bahmni",
 		"logo": "/bahmni_config/openmrs/apps/home/logo.png",
 		"title_text": " "
 	},
@@ -28,11 +28,25 @@
 			"link": "/openelis"
 		},
 		{
+			"enabled": true,
+			"name": "odoo",
+			"title": "Gestion stock & facturation",
+			"logo": "/bahmni/images/bills.png",
+			"linkPrefix": "erp"
+		},
+		{
 			"enabled": false,
 			"name": "crater",
-			"title": "Paiement & Facturation",
+			"title": "Paiement & facturation",
 			"logo": "/bahmni/images/bills.png",
 			"linkPrefix": "payments"
+		},
+		{
+			"enabled": true,
+			"name": "connect",
+			"title": "Connect",
+			"logo": "/bahmni/images/connect.png",
+			"link": "/bahmni-connect"
 		},
 		{
 			"enabled": true,

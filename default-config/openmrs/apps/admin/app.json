@@ -3,7 +3,7 @@
         "extensionPoints": [
             {
                 "id": "org.bahmni.admin.dashboard",
-                "description": "Page d'administration"
+                "description": "Bahmni Admin Page"
             }
         ]
 
