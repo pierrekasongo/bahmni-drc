@@ -30,7 +30,7 @@
                     "maximumNoOfVisits": 10,
                     "showEditForActiveEncounter": true
                 },
-                "translationKey": "Observation Forms"
+                "translationKey": "Formulaire d'observation"
             },
             "diagnosis":{
                 "translationKey":"DASHBOARD_TITLE_DIAGNOSIS_KEY",
