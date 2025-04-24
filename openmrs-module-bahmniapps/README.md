@@ -110,11 +110,15 @@ This behaviour can be prevented by:
 openmrs-module-bahmniapps also integrates with SNOMED for terminology lookup and CDSS. More details can be found in [this](https://bahmni.atlassian.net/wiki/spaces/BAH/pages/3132686337/SNOMED+FHIR+Terminology+Server+Integration+with+Bahmni) Wiki link
 
 ### Building local images
-CD into openmrs-module-bahmniapps
+cd into openmrs-module-bahmniapps
 Then run below command
 
-docker build -t bahmni-web-drc:latest -f package/docker/Dockerfile .
+`docker build -t bahmni-web-drc:latest -f package/docker/Dockerfile .`
 
-CD into default-config
+cd into default-config
 Then run below command
-docker build -t bahmni-config-drc:latest -f package/docker/Dockerfile .
+`docker build -t bahmni-config-drc:latest -f package/docker/Dockerfile .`
+
+cd into bahmni-proxy
+Then run below command
+`docker build -t bahmni-proxy-drc:latest -f package/docker/Dockerfile .`
