@@ -48,6 +48,7 @@
   "MODULE_LABEL_PATIENT_DOCUMENTS_KEY": "Documents du patient",
   "MODULE_LABEL_ADMIN_KEY": "Administration",
   "MODULE_LABEL_REPORTS_KEY": "Rapports",
+  "MODULE_OPERATION_THEATER_KEY": "Salle d'opération",
   "MODULE_LABEL_LOGOUT_KEY": "Déconnexion",
   "MODULE_LABEL_LOGIN_KEY": "Connexion",
   "VIEWED_WARD_LEVEL_DASHBOARD_MESSAGE": "L'utilisateur {{userId}} a accédé au tableau de bord du service hospitalier.",
