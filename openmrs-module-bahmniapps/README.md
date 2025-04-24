@@ -121,4 +121,4 @@ Then run below command
 
 cd into bahmni-proxy
 Then run below command
-`docker build -t bahmni-proxy-drc:latest -f package/docker/Dockerfile .`
+`docker build -t bahmni-proxy-drc:latest -f Dockerfile .`
