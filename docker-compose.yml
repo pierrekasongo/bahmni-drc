@@ -18,8 +18,8 @@ services:
   proxy:
     #image: "bahmni/proxy:${PROXY_IMAGE_TAG:?}"
     image: "bahmni-proxy-drc:latest"
-    volumes:
-      - "${PROXY_APPS_PATH:?}:/usr/local/apache2/htdocs"
+    #volumes:
+    #  - "${PROXY_APPS_PATH:?}:/usr/local/apache2/htdocs"
     # - ${CERTIFICATE_PATH}:/etc/tls
     ports:
       - "80:80"
@@ -32,8 +32,8 @@ services:
   bahmni-config:
     #image: "bahmni/standard-config:${CONFIG_IMAGE_TAG:?}"
     image: "bahmni-config-drc:latest"
-    volumes:
-      - "${CONFIG_VOLUME:?}:/usr/local/bahmni_config"
+    #volumes:
+    #  - "${CONFIG_VOLUME:?}:/usr/local/bahmni_config"
     logging: *log-config
     restart: ${RESTART_POLICY}
 
