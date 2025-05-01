@@ -12,7 +12,7 @@
     "NO_DISPOSTIONS_AVAILABLE_MESSAGE_KEY": "Pas de dispositions disponibles",
     "ALL_DIAGNOSES_KEY": "Tous les Diagnostics",
     "DISPLAY_CONTROL_ERROR_MESSAGE_KEY": "Non {{ displayControl }}  pour ce patient",
-    "VISIT_CHANGE_CONFIRMATION_DIALOG_MESSAGE_KEY": "Le type de visite actuel est <b> {{visitType}} </b>, Voulez-vous le fermer et commencer une nouvelle visite<b> {{defaultVisitType}} </b>?",
+    "VISIT_CHANGE_CONFIRMATION_DIALOG_MESSAGE_KEY": "Voulez-vous le fermer et commencer une nouvelle visite<b> {{defaultVisitType}} </b>?",
     "VISIT_CHANGE_CONFIRMATION_OPTION_YES_KEY": "Oui",
     "VISIT_CHANGE_CONFIRMATION_OPTION_CANCEL_KEY": "Annuler",
     "VISIT_CHANGE_CONFIRMATION_OPTION_CONTINUE_KEY": "Continue avec la Visite courante",

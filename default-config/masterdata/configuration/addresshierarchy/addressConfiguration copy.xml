@@ -9,26 +9,26 @@
     </addressComponent>
     <addressComponent>
       <field>COUNTY_DISTRICT</field>
-      <nameMapping>Ville</nameMapping>
+      <nameMapping>Zone de santé</nameMapping>
       <sizeMapping>40</sizeMapping>
       <requiredInHierarchy>false</requiredInHierarchy>
     </addressComponent>
 
     <addressComponent>
       <field>City_village</field>
-      <nameMapping>Commune</nameMapping>
-      <sizeMapping>40</sizeMapping>
-      <requiredInHierarchy>false</requiredInHierarchy>
-    </addressComponent>
-    <addressComponent>
-      <field>ADDRESS_2</field>
       <nameMapping>Quartier</nameMapping>
       <sizeMapping>40</sizeMapping>
       <requiredInHierarchy>false</requiredInHierarchy>
     </addressComponent>
     <addressComponent>
+      <field>ADDRESS_2</field>
+      <nameMapping>Avenue</nameMapping>
+      <sizeMapping>40</sizeMapping>
+      <requiredInHierarchy>false</requiredInHierarchy>
+    </addressComponent>
+    <addressComponent>
       <field>ADDRESS_1</field>
-      <nameMapping>N° et avenue</nameMapping>
+      <nameMapping>N° de domicile</nameMapping>
       <sizeMapping>40</sizeMapping>
       <requiredInHierarchy>false</requiredInHierarchy>
     </addressComponent>
