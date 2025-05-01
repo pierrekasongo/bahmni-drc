@@ -1,37 +1,49 @@
 <addressConfiguration>
   <wipe>true</wipe>
   <addressComponents>
+  
     <addressComponent>
       <field>STATE_PROVINCE</field>
       <nameMapping>Province</nameMapping>
       <sizeMapping>40</sizeMapping>
-      <requiredInHierarchy>false</requiredInHierarchy>
+      <requiredInHierarchy>true</requiredInHierarchy>
     </addressComponent>
+
     <addressComponent>
-      <field>COUNTY_DISTRICT</field>
-      <nameMapping>Zone de santé</nameMapping>
+      <field>COUNTY_TOWN</field>
+      <nameMapping>Ville</nameMapping>
+      <sizeMapping>40</sizeMapping>
+      <requiredInHierarchy>true</requiredInHierarchy>
+    </addressComponent>
+
+    <addressComponent>
+      <field>MUNICIPALITY</field>
+      <nameMapping>Commune/Village</nameMapping>
       <sizeMapping>40</sizeMapping>
       <requiredInHierarchy>false</requiredInHierarchy>
     </addressComponent>
 
     <addressComponent>
-      <field>City_village</field>
+      <field>NEIGHBORHOOD</field>
       <nameMapping>Quartier</nameMapping>
       <sizeMapping>40</sizeMapping>
       <requiredInHierarchy>false</requiredInHierarchy>
     </addressComponent>
+
     <addressComponent>
       <field>ADDRESS_2</field>
       <nameMapping>Avenue</nameMapping>
       <sizeMapping>40</sizeMapping>
       <requiredInHierarchy>false</requiredInHierarchy>
     </addressComponent>
+
     <addressComponent>
       <field>ADDRESS_1</field>
       <nameMapping>N° de domicile</nameMapping>
       <sizeMapping>40</sizeMapping>
       <requiredInHierarchy>false</requiredInHierarchy>
     </addressComponent>
+
   </addressComponents>
   <addressHierarchyFile>
     <filename>addresshierarchy.csv</filename>

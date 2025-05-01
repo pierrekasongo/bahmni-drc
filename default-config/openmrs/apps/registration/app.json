@@ -50,7 +50,7 @@
                 }
             },
             "addressHierarchy": {
-                "showAddressFieldsTopDown": false,
+                "showAddressFieldsTopDown": true,
                 "strictAutocompleteFromLevel": "stateProvince"
             },
             "relationshipTypeMap": {
@@ -120,7 +120,7 @@
                 }
             },
             "addressHierarchy": {
-                "showAddressFieldsTopDown": false,
+                "showAddressFieldsTopDown": true,
                 "strictAutocompleteFromLevel": "postalCode"
             }
         }
