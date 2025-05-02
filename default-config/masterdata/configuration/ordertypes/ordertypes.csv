@@ -1,3 +1,3 @@
 Uuid,Void/Retire,Name,Description,Java class name,Parent,Concept Classes,_order:1000
-,,Examens radiologie,Ordonnance pour des examens radio,org.openmrs.Order,,Radiology, Radiology/Imaging Procedure
-,,Intervention chirurgicale,Ordonnance pour une intervention chirurgicale,org.openmrs.Order,,Procedure,
+,,Examens radiologie,Ordonnance pour des examens radio,org.openmrs.Order,,Radiologie/Imagerie,Radiologie/Imagerie
+,,Intervention chirurgicale,Ordonnance pour une intervention chirurgicale,org.openmrs.Order,,Intervention chirurgicale,Intervention chirurgicale
