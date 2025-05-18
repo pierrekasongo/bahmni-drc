@@ -10,15 +10,12 @@ test/output
 target
 output
 .sass-cache
-ui/.css/
+
 .tmp
 ui/node_modules
-ui/app/components
-ui/dist
+
 ui/cacheAndroidDist
 ui/cacheChromeDist
-ui/app/styles/**/*.css
-ui/app/styles/*.css
 ui/app/micro-frontends-dist
 **/.DS_Store
 test_out
@@ -28,7 +25,5 @@ ui/style-guide
 node_modules
 *.tern-port
 **/.idea/*
-ui/common.background.min.js
 
 micro-frontends/node_modules
-ui/app/micro-frontends-dist
