@@ -17,7 +17,7 @@ x-log-config:
 services:
   proxy:
     build:
-      context: bahmni-proxy
+      context: ./bahmni-proxy
       dockerfile: Dockerfile
     #image: "bahmni/proxy:${PROXY_IMAGE_TAG:?}"
     image: "bahmni-proxy-drc:latest"
@@ -34,7 +34,7 @@ services:
 
   bahmni-config:
     build:
-      context: default-config
+      context: ./default-config
       dockerfile: package/docker/Dockerfile
     #image: "bahmni/standard-config:${CONFIG_IMAGE_TAG:?}"
     image: "bahmni-config-drc:latest"
@@ -361,7 +361,7 @@ services:
 
   bahmni-web:
     build:
-      context: openmrs-module-bahmniapps
+      context: ./openmrs-module-bahmniapps
       dockerfile: package/docker/Dockerfile
     #image: bahmni/bahmni-web:${BAHMNI_WEB_IMAGE_TAG:?}
     image: bahmni-web-drc:latest
