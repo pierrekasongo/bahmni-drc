@@ -34,7 +34,7 @@ services:
 
   bahmni-config:
     build:
-      context: bahmni-config
+      context: default-config
       dockerfile: package/docker/Dockerfile
     #image: "bahmni/standard-config:${CONFIG_IMAGE_TAG:?}"
     image: "bahmni-config-drc:latest"
