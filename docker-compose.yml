@@ -1,4 +1,4 @@
-version: "3.7"
+#version: "3.7"
 
 x-default-logging: &default {}
 
@@ -16,6 +16,9 @@ x-log-config:
 
 services:
   proxy:
+    build:
+      context: ./bahmni-proxy
+      dockerfile: Dockerfile
     #image: "bahmni/proxy:${PROXY_IMAGE_TAG:?}"
     image: "bahmni-proxy-drc:latest"
     #volumes:
@@ -30,6 +33,9 @@ services:
       TZ: ${TZ}
 
   bahmni-config:
+    build:
+      context: ./bahmni-config
+      dockerfile: package/docker/Dockerfile
     #image: "bahmni/standard-config:${CONFIG_IMAGE_TAG:?}"
     image: "bahmni-config-drc:latest"
     #volumes:
@@ -354,8 +360,11 @@ services:
       - "bahmni-clinical-forms:/home/bahmni/clinical_forms"
 
   bahmni-web:
-    image: bahmni/bahmni-web:${BAHMNI_WEB_IMAGE_TAG:?}
-    #image: bahmni-web-drc:latest
+    build:
+      context: ./openmrs-module-bahmniapps
+      dockerfile: package/docker/Dockerfile
+    #image: bahmni/bahmni-web:${BAHMNI_WEB_IMAGE_TAG:?}
+    image: bahmni-web-drc:latest
     profiles: ["emr", "bahmni-standard", "bahmni-mart"]
     volumes:
       #- "${CONFIG_VOLUME:?}:/usr/local/apache2/htdocs/bahmni_config/:ro"

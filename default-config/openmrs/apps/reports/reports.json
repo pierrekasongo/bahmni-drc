@@ -1,6 +1,6 @@
 {
   "visitReport10": {
-    "name": "Visit Report",
+    "name": "Rapport de visites",
     "type": "visits",
     "requiredPrivilege": "app:reports",
     "config": {
@@ -27,7 +27,7 @@
     }
   },
   "formBuilderReport": {
-    "name": "Form builder form Report",
+    "name": "Rapport de création de formulaire",
     "type": "formBuilder",
     "requiredPrivilege": "app:reports",
     "config": {
@@ -57,7 +57,7 @@
     }
   },
   "DiagnosisCountReport": {
-    "name": "Diagnosis Count Report",
+    "name": "Rapport de diagnostic",
     "type": "MRSGeneric",
     "requiredPrivilege": "app:reports",
     "config": {
@@ -65,7 +65,7 @@
     }
   },
   "diabetes": {
-    "name": "Diabetes",
+    "name": "Diabètes",
     "type": "obsCount",
     "requiredPrivilege": "app:reports",
     "config": {
@@ -82,12 +82,12 @@
     }
   },
   "OPD/IPDVisitCount": {
-    "name": "OPD/IPD Visit Count",
+    "name": "Compte de consultations et hospitalisations",
     "type": "IpdOpdVisitCount",
     "requiredPrivilege": "app:reports"
   },
   "radiology(X-Ray)Count": {
-    "name": "Radiology(X-Ray) Count",
+    "name": "Compte des examens Radiologie(X-Ray)",
     "type": "ObsCountByConceptClass",
     "requiredPrivilege": "app:reports",
     "config": {
@@ -98,7 +98,7 @@
     }
   },
   "IPDPatientsReport": {
-    "name": "IPD Patients Report",
+    "name": "Rapport des patients en hospitalisation",
     "type": "ipdPatients",
     "requiredPrivilege": "app:reports",
     "config": {
@@ -119,7 +119,7 @@
     }
   },
   "OrderFulfillmentReport": {
-    "name": "Order Fulfillment Report",
+    "name": "Rapport d'exécution des commandes",
     "type": "OrderFulfillmentReport",
     "requiredPrivilege": "app:reports",
     "config": {
@@ -131,7 +131,7 @@
     }
   },
   "SampleGenericProgramReport": {
-    "name": "Generic program sample report",
+    "name": "Exemple de rapport de programme générique",
     "type": "programs",
     "requiredPrivilege": "app:reports",
     "config": {
@@ -156,7 +156,7 @@
     }
   },
   "pivotReportOfVisits": {
-    "name": "Aggregation report for visits",
+    "name": "Rapport d'agrégation des visites",
     "type": "aggregation",
     "requiredPrivilege": "app:reports",
     "config": {
@@ -198,7 +198,7 @@
     }
   },
   "pivotReportForPrograms": {
-    "name": "HIV Program Pivot Report",
+    "name": "Rapport pivot du programme VIH",
     "type": "aggregation",
     "requiredPrivilege": "app:reports",
     "config": {
@@ -234,7 +234,7 @@
     }
   },
   "OpenELISTestCount": {
-    "name": "OpenELIS Test Count",
+    "name": "Nombre de tests",
     "type": "ElisGeneric",
     "requiredPrivilege": "app:reports",
     "config": {
@@ -242,7 +242,7 @@
     }
   },
   "OdooInvoiceSummary": {
-    "name": "Odoo Invoicing Summary",
+    "name": "Résumé de la facturation",
     "type": "ERPGeneric",
     "requiredPrivilege": "app:reports",
     "config": {

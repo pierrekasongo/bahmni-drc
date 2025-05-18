@@ -1,7 +1,7 @@
 Uuid,Void/Retire,Name,Description,Parent,Attribute|id_prefix,Tags,Address 1,Address 2,Address 3,Address 4,Address 5,Address 6,City/Village,County/District,State/Province,Postal Code,Country
 ,,CSR BANGU,,,,Facility, Visit Location,,,,,,,,,,
-,,"Médecine Interne (Consultation générale, Diabeto)",,CSR BANGU,,Login Location, Appointment Location,Visit Location,,,,,,,,,
-,,Ophtalmologie,,CSR BANGU,,Login Location, Appointment Location,Visit Location,,,,,,,,,
+,,"Médecine Interne (Consultation générale, Diabeto)",,CSR BANGU,, Visit Location, Appointment Location,Visit Location,,,,,,,,,
+,,Ophtalmologie,,CSR BANGU,, Visit Location, Appointment Location,Visit Location,,,,,,,,,
 ,,Kinésithérapie,,CSR BANGU,,Login Location, Appointment Location,Visit Location,,,,,,,,,
 ,,"CPN & CPS, Nutrition",,CSR BANGU,,Login Location, Appointment Location,Visit Location,,,,,,,,,
 ,,Urgence (Observation),,CSR BANGU,,Login Location, Admission Location,Visit Location,,,,,,,,,
