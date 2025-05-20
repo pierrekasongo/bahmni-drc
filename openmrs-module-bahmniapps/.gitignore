@@ -16,7 +16,6 @@ ui/node_modules
 
 ui/cacheAndroidDist
 ui/cacheChromeDist
-ui/app/micro-frontends-dist
 **/.DS_Store
 test_out
 omod/src/main/webapp/*
