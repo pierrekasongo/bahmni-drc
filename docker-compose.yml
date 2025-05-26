@@ -272,7 +272,11 @@ services:
     restart: ${RESTART_POLICY}
 
   openmrsdb:
-    image: ${OPENMRS_DB_IMAGE_NAME:?}
+    #image: ${OPENMRS_DB_IMAGE_NAME:?}
+    build:
+      context: ./openmrs-db
+      dockerfile: Dockerfile
+    image: openmrs-db-drc:latest
     restart: always
     profiles: ["emr", "bahmni-standard", "metabase", "bahmni-mart"]
     command: "--sql-mode=${OPENMRS_DB_SQL_MODES:?}"
