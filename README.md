@@ -122,3 +122,6 @@ Then run below command
 cd into bahmni-proxy
 Then run below command
 `docker build -t bahmni-proxy-drc:latest -f Dockerfile .`
+
+### Integrating pacs
+https://bahmni.atlassian.net/wiki/spaces/BAH/pages/3117613179/PACS+Configurations+docker

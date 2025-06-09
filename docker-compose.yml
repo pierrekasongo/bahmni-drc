@@ -38,8 +38,8 @@ services:
       dockerfile: package/docker/Dockerfile
     #image: "bahmni/standard-config:${CONFIG_IMAGE_TAG:?}"
     image: "bahmni-config-drc:latest"
-    #volumes:
-    #  - "${CONFIG_VOLUME:?}:/usr/local/bahmni_config"
+    volumes:
+      - "${CONFIG_VOLUME:?}:/usr/local/bahmni_config"
     logging: *log-config
     restart: ${RESTART_POLICY}
 
@@ -372,7 +372,7 @@ services:
     profiles: ["emr", "bahmni-standard", "bahmni-mart"]
     volumes:
       #- "${CONFIG_VOLUME:?}:/usr/local/apache2/htdocs/bahmni_config/:ro"
-      - "${CONFIG_VOLUME:?}:/usr/local/apache2/htdocs/bahmni_config"
+      - "${CONFIG_VOLUME:?}:/usr/local/apache2/htdocs/bahmni_config:ro"
       - "${BAHMNI_APPS_PATH:?}/ui/app/:/usr/local/apache2/htdocs/bahmni"
       - "${BAHMNI_APPS_PATH:?}/ui/node_modules/@bower_components/:/usr/local/apache2/htdocs/bahmni/components"
       #- "${BAHMNI_APPS_PATH:?}/package/docker/index.html:/usr/local/apache2/htdocs"
