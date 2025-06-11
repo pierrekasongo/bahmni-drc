@@ -1,2 +1,4 @@
 .env
 CSR_BANGU
+
+openmrs-db/db-backups/openmrsdb_backup.sql
