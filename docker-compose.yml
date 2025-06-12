@@ -38,8 +38,8 @@ services:
       dockerfile: package/docker/Dockerfile
     #image: "bahmni/standard-config:${CONFIG_IMAGE_TAG:?}"
     image: "bahmni-config-drc:latest"
-    #volumes:
-    #  - "${CONFIG_VOLUME:?}:/usr/local/bahmni_config"
+    volumes:
+      - "${CONFIG_VOLUME:?}:/usr/local/bahmni_config"
     logging: *log-config
     restart: ${RESTART_POLICY}
 
